@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="La Tanita - Pastelería y Cafetería artesanal en Ramos Mejía. Merienda libre, desayunos y tortas caseras. Calidez de barrio con sabor atradición.">
+    <title>La Tanita • Pastelería y Cafetería</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header fijo -->
+    <header class="header" id="header">
+        <div class="header__container">
+            <a href="#" class="header__logo">
+                <img src="https://scontent-scl3-1.xx.fbcdn.net/v/t39.30808-6/303359704_214289647592047_2322346389539879978_n.png?stp=dst-png&cstp=mx264x264&ctp=s264x264&_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=F10o5otTkf8Q7kNvwEtrCcn&_nc_oc=AdpUPcya1GmcMAlf0hFypcrs-3XCcXldpKkW_zxkTciLLGDKW9vL6q6ZI_mI2ezNd9iP3zdoGaq2Pgp6CQ3C0_q5&_nc_zt=23&_nc_ht=scontent-scl3-1.xx&_nc_gid=YUJ_Mq3YFGJIdZxB6xjZfw&_nc_ss=7b289&oh=00_AQAza4ut6-3aztgADB3uMMU4GYR1GfUlQmxGSuj1Hp1wnw&oe=6A681EB3" alt="La Tanita - Pastelería y Cafetería" class="header__logo-img">
+                <div class="header__logo-text">
+                    <span class="header__logo-name">La Tanita</span>
+                    <span class="header__logo-subtitle">CAFÉ - PANADERÍA</span>
+                </div>
+            </a>
+            
+            <nav class="header__nav" id="mainNav">
+                <a href="#inicio" class="header__nav-link">Inicio</a>
+                <a href="#nosotros" class="header__nav-link">Nosotros</a>
+                <a href="#experiencia" class="header__nav-link">Experiencia</a>
+                <a href="#galeria" class="header__nav-link">Galería</a>
+                <a href="#momentos" class="header__nav-link">Momentos</a>
+                <a href="#contacto" class="header__nav-link">Contacto</a>
+            </nav>
+            
+            <a href="https://wa.me/5491126756944?text=Hola%20La%20Tanita!%20Me%20gustaría%20hacer%20una%20consulta." class="header__cta" target="_blank">
+                <svg class="header__cta-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                </svg>
+                Reservá tu mesa
+            </a>
+            
+            <button class="header__menu-toggle" id="menuToggle" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="inicio">
+        <div class="hero__background">
+            <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl92Ngav7L6w6HU6wQdXaRvRC6cnkyDa4wodbWFJP2yMF7XvSBlb2_HPrEYnu6beludQCUbdgvo0TwCG-DwmpmiaCnoF5s0zan7VKx-2OSOcnaaH0O-fYO7aOoPwkp8e6veYwZRr4QB-Or6=s1360-w1360-h1020" alt="La Tanita - Interior acogedor" class="hero__image" loading="eager">
+            <div class="hero__overlay"></div>
+        </div>
+        
+        <div class="hero__content">
+            <h1 class="hero__title">El sabor de lo hecho con amor</h1>
+            <p class="hero__subtitle">Pastelería artesanal, café de especialidad y esa calidez de barrio que hace que cada visita se sienta como en casa.</p>
+            
+            <div class="hero__cta-container">
+                <a href="#experiencia" class="hero__cta hero__cta--primary">Descubrí nuestra experiencia</a>
+                <a href="https://wa.me/5491126756944?text=Hola!%20Quiero%20reservar%20una%20mesa%20para%20la%20merienda%20libre." class="hero__cta hero__cta--secondary" target="_blank">Reservá tumerienda</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Introducción / Diferenciales -->
+    <section class="differentials" id="nosotros">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Lo que nos hace únicos</span>
+                <h2 class="section-title">Tres razones para elegir La Tanita</h2>
+            </div>
+            
+            <div class="differentials__grid">
+                <div class="differential-card">
+                    <div class="differential-card__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3 class="differential-card__title">Ingredientes frescos</h3>
+                    <p class="differential-card__text">Seleccionamos cada ingrediente con cuidado artesanal. Sin conservantes, sin atajos. El sabor de lo auténtico.</p>
+                </div>
+                
+                <div class="differential-card">
+                    <div class="differential-card__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/>
+                            <path d="M12 6v6l4 2"/>
+                        </svg>
+                    </div>
+                    <h3 class="differential-card__title">Tradición y innovación</h3>
+                    <p class="differential-card__text">Recetas que vienen de la tradición panadera argentina, pero con ese toque contemporáneo que hace la diferencia.</p>
+                </div>
+                
+                <div class="differential-card">
+                    <div class="differential-card__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
+                        </svg>
+                    </div>
+                    <h3 class="differential-card__title">Atención cálida</h3>
+                    <p class="differential-card__text">Nuestro equipo te recibe como en casa. Porque en La Tanita no somos clientes, somos vecinos que comparten una mesa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiencia (sin menú) -->
+    <section class="experience" id="experiencia">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Nuestra esencia</span>
+                <h2 class="section-title">Una experiencia que se siente</h2>
+                <p class="section-subtitle">No somos un menú, somos un momento. Cada visita es una oportunidad para reconectarte con los placeres simples.</p>
+            </div>
+            
+            <div class="experience__content">
+                <div class="experience__image-container">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnp8dfODmz6S28RQvypDsIJZrvaRFyppRZVDjJ-0jM2n6ZFHYYf5qYcAn6l0B64rMCF-A0aliIj-dDhMKayi2SFbdFSZY58apy3fTGIjH0iCI-xaXUbfnN3gwdYklfh92HnNUJjiDTHLiAa=s1360-w1360-h1020" alt="Interior de La Tanita con plantas y ambiente acogedor" class="experience__image">
+                </div>
+                
+                <div class="experience__text">
+                    <h3 class="experience__subtitle">El lugar donde el tiempo se detiene</h3>
+                    <p class="experience__paragraph">Entrás a La Tanita y sentís ese aroma a café recién hecho, a facturas recién horneadas, a tortas que esperan ser descubiertas. Es un espacio que invita a quedarse, a conversar, a saborear cada bocado sin prisas.</p>
+                    
+                    <div class="experience__features">
+                        <div class="experience__feature">
+                            <span class="experience__feature-number">40+</span>
+                            <span class="experience__feature-text">Mesas para compartir momentos</span>
+                        </div>
+                        <div class="experience__feature">
+                            <span class="experience__feature-number">2hs</span>
+                            <span class="experience__feature-text">De merienda libre para disfrutar</span>
+                        </div>
+                        <div class="experience__feature">
+                            <span class="experience__feature-number">409</span>
+                            <span class="experience__feature-text">Reseñas de nuestros visitantes</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Producto estrella: Merienda Libre -->
+    <section class="star-product">
+        <div class="container">
+            <div class="star-product__content">
+                <div class="star-product__text">
+                    <span class="section-tag">Nuestra especialidad</span>
+                    <h2 class="star-product__title">La Merienda Libre</h2>
+                    <p class="star-product__description">Dos horas de pura indulgencia. Todo lo que puedas comer: cosas saladas, dulces, masitas, panificados, tortas, y una infusión en un tazón gigante que no se acaba.</p>
+                    
+                    <div class="star-product__details">
+                        <div class="star-product__detail">
+                            <span class="star-product__detail-label">Incluye</span>
+                            <span class="star-product__detail-value">Comida + Bebida + Postre</span>
+                        </div>
+                        <div class="star-product__detail">
+                            <span class="star-product__detail-label">Duración</span>
+                            <span class="star-product__detail-value">2 horas completas</span>
+                        </div>
+                        <div class="star-product__detail">
+                            <span class="star-product__detail-label">Opciones</span>
+                            <span class="star-product__detail-value">Dulces y saladas ilimitadas</span>
+                        </div>
+                    </div>
+                    
+                    <a href="https://wa.me/5491126756944?text=Hola!%20Quiero%20reservar%20para%20la%20Merienda%20Libre%20de%20La%20Tanita." class="star-product__cta" target="_blank">Reservá tu lugar ahora</a>
+                </div>
+                
+                <div class="star-product__image-container">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm6LHpFK4w_4gMMHXqUFNEeqZXreXz_oJ7SrfSGrY75hd-2bUSytB7Ubnmwq91yaS3R9iYb8iDCpkrdFsNuXXf_bP4y947SdE2Qk7JiNM7th58uzohxzKUK-hOfSBwK5iMLpS70hk17zlU9=s1360-w1360-h1020" alt="Desayuno completo en La Tanita" class="star-product__image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería -->
+    <section class="gallery" id="galeria">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Momentos capturados</span>
+                <h2 class="section-title">Así se vive La Tanita</h2>
+            </div>
+            
+            <div class="gallery__grid">
+                <div class="gallery__item gallery__item--large">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmrkeJNhDCzhCKwHakqMSXYe8gaQ3yRUSINckjXwnDUoAXRUY85HAx5PpRinYKx0OPMmOvPtSBa2xms32C5r_8b8-0q_STUwvsl9K63iKxNRs_R8kdB_zLkrFIJoSRZ0cTPKIE_qX0hf4rh=s1360-w1360-h1020" alt="Facturas y productos frescos" class="gallery__image" loading="lazy">
+                    <div class="gallery__overlay">
+                        <span class="gallery__category">Productos Frescos</span>
+                    </div>
+                </div>
+                
+                <div class="gallery__item">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlsVHLtIT8gWthnJnBTwyQOIedDKX8nfsxnX5iirM2NYOe6vunOMBqEIPazIpz-VEFYG5Jahghfhdb7aRc8W2mBYfTIzGOUZXcFR8NqNUUrn9rbh7hFzu2ik3M4X3adI0o6CdGFCbJT6SXL=s1360-w1360-h1020" alt="Tortas artesanales" class="gallery__image" loading="lazy">
+                    <div class="gallery__overlay">
+                        <span class="gallery__category">Tortas Artesanales</span>
+                    </div>
+                </div>
+                
+                <div class="gallery__item">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnWbnpHnhIVJsqCzC8WRiFX-a1tc3lWBO3PL_WWT6EhFjJv_l6SbTLJuZuVbO5xyKc8xHuizrnaW98nbVtTTna2Q74uYxtAhN-p_f7Qq4joj2VcPjroRdq5d_mzpmXegl_ReGuvHXVQFHA=s1360-w1360-h1020" alt="Comida natural y saludable" class="gallery__image" loading="lazy">
+                    <div class="gallery__overlay">
+                        <span class="gallery__category">Opciones Saludables</span>
+                    </div>
+                </div>
+                
+                <div class="gallery__item">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnGbnnLq8VAvkywnYMAHiENwcyEmdlF1rRcs4mqTa8iDBjo6LMU35mxE7D9Ug-ds2K9Ph7iwWVXX3nNYbGaCsbBqft8rO5v0OxKmhiHaCpKhqe2tqspTvEHFxj_7So6O4bUxbeP44RYt7Lx=s1360-w1360-h1020" alt="Personas disfrutando en el local" class="gallery__image" loading="lazy">
+                    <div class="gallery__overlay">
+                        <span class="gallery__category">Ambiente Acogedor</span>
+                    </div>
+                </div>
+                
+                <div class="gallery__item">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmvLqHSGV_LZKZt7zmfJOLOz5e1wku3JGoD1caMGFRSomtNCZTIbLpYm-2_jp5hSvvpCIDXMbrMIXy_wQ5yu5H9w1F_RpkgvrLGMGSTE0aTq-FotXuZDjPStDHDH9RQYrex3lPZSfds1dcw=s1360-w1360-h1020" alt="Torta con nombre de La Tanita" class="gallery__image" loading="lazy">
+                    <div class="gallery__overlay">
+                        <span class="gallery__category">Tortas Personalizadas</span>
+                    </div>
+                </div>
+                
+                <div class="gallery__item">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk9DooICUU6LsMSaqiOIr3k62Vt0Z-xWN1hGjZKGcq4KDSqrxYG4bBuW6_XNPRwaSRMPwU5qX7eNN2O0D7D9YqULi_NoOrQnl28qHn4ebxnqvedsgqypUJXi1Ocm6LBv4wx_-mpp4tD6MR-=s1360-w1360-h1020" alt="Variedad de facturas" class="gallery__image" loading="lazy">
+                    <div class="gallery__overlay">
+                        <span class="gallery__category">Facturas Tradicionales</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Lo que dicen nuestros visitantes</span>
+                <h2 class="section-title">4.1 ★★★★★ basado en 409 reseñas</h2>
+                <p class="section-subtitle">Historias reales de quienes ya descubrieron La Tanita</p>
+            </div>
+            
+            <div class="testimonials__grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-card__header">
+                        <div class="testimonial-card__avatar">M</div>
+                        <div class="testimonial-card__info">
+                            <span class="testimonial-card__name">María G.</span>
+                            <span class="testimonial-card__date">hace 2 semanas</span>
+                        </div>
+                        <div class="testimonial-card__rating">★★★★★</div>
+                    </div>
+                    <p class="testimonial-card__text">"Vinimos a la merienda libre con mi familia y fue increíble. Las 2 horas pasaron volando. La variedad es enorme y todo está fresco. El tazón de café es gigante y la atención de Karina fue espectacular. Volveremos sin dudas."</p>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-card__header">
+                        <div class="testimonial-card__avatar">L</div>
+                        <div class="testimonial-card__info">
+                            <span class="testimonial-card__name">Lucas M.</span>
+                            <span class="testimonial-card__date">hace 1 mes</span>
+                        </div>
+                        <div class="testimonial-card__rating">★★★★☆</div>
+                    </div>
+                    <p class="testimonial-card__text">"Primera vez que vine con mi hijo. Pedimos la Tabla Dulce-Salada y no pudimos terminarla. Lo que sobró nos dejaron llevar. La relación calidad-precio es imbatible. Un lugar que se siente genuinamente de barrio."</p>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-card__header">
+                        <div class="testimonial-card__avatar">A</div>
+                        <div class="testimonial-card__info">
+                            <span class="testimonial-card__name">Ana R.</span>
+                            <span class="testimonial-card__date">hace 3 semanas</span>
+                        </div>
+                        <div class="testimonial-card__rating">★★★★★</div>
+                    </div>
+                    <p class="testimonial-card__text">"Celebré mi cumpleaños aquí con amigas. El espacio es cálido, las tortas son una obra de arte y el precio es muy razonable. Es como un desayuno continental de hotel pero con la calidez de un café de barrio."</p>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-card__header">
+                        <div class="testimonial-card__avatar">P</div>
+                        <div class="testimonial-card__info">
+                            <span class="testimonial-card__name">Pedro S.</span>
+                            <span class="testimonial-card__date">hace 1 semana</span>
+                        </div>
+                        <div class="testimonial-card__rating">★★★★★</div>
+                    </div>
+                    <p class="testimonial-card__text">"Fui un sábado a las 10am y fue perfecto. Todo fresco, productos recién hechos. Los sándwiches de miga y las tortas son espectaculares. El lugar tiene esa vibra de confitería tradicional renovada."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Momentos de uso -->
+    <section class="moments" id="momentos">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">¿Cuándo venir?</span>
+                <h2 class="section-title">Momentos para disfrutar</h2>
+                <p class="section-subtitle">Cada momento del día tiene su rincón en La Tanita</p>
+            </div>
+            
+            <div class="moments__grid">
+                <div class="moment-card">
+                    <div class="moment-card__image-container">
+                        <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmTzvPBGildvoDfXcJj1xTuMcz7QcBeVMA42JS4uRTr_uf220Y32HaoDNC55XVpqnqJc2obILzrACBXnsylKe4QxR_tT30ewJqR3-P-alBa6kG8GKim1arwBXmOa2uVE6OMoO40fhSV-nf6=s1360-w1360-h1020" alt="Personas desayunando en La Tanita" class="moment-card__image" loading="lazy">
+                        <div class="moment-card__time-badge">8:00 - 12:00</div>
+                    </div>
+                    <div class="moment-card__content">
+                        <h3 class="moment-card__title">El café de la mañana</h3>
+                        <p class="moment-card__text">El aroma del café recién hecho, las facturas tibias y la luz de la mañana. El momento perfecto para empezar el día con energía.</p>
+                    </div>
+                </div>
+                
+                <div class="moment-card">
+                    <div class="moment-card__image-container">
+                        <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl3llF5M2wUijWXFvvDT0H3OaDDdBVduxcd7-h2yy3rJ0Mnx7HEJQdgqZ3cMc1tCJnlflesW6XGNtUjIlVta2WU5hFA1fHfKoQ4n5eqyPaq-vjwW4mW_yT_tidV7GOL2lLQuWkgUA=s1360-w1360-h1020" alt="Flores y mostrador de La Tanita" class="moment-card__image" loading="lazy">
+                        <div class="moment-card__time-badge">16:00 - 19:00</div>
+                    </div>
+                    <div class="moment-card__content">
+                        <h3 class="moment-card__title">La merienda libre</h3>
+                        <p class="moment-card__text">Dos horas de indulgencia sin culpa. Todo lo que puedas probar, dulce y salado, con ese tazón de café que no se acaba.</p>
+                    </div>
+                </div>
+                
+                <div class="moment-card">
+                    <div class="moment-card__image-container">
+                        <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnUfMND3a9TwEAq3zyjTR_b3vqL6mADsrYKgIzK7BpCgHg15U_z10SXsnqMtAcIorrJRRGl4V_e2JSJPL-OW22asRgn3FWBWjMQp5hZDNeRuYfguT52jhkDDXc2xCec85E9mS38iA=s1360-w1360-h1020" alt="Mostrador con tortas de La Tanita" class="moment-card__image" loading="lazy">
+                        <div class="moment-card__time-badge">12:00 - 21:30</div>
+                    </div>
+                    <div class="moment-card__content">
+                        <h3 class="moment-card__title">Celebraciones especiales</h3>
+                        <p class="moment-card__text">Cumpleaños, reuniones con amigos, ese encuentro familiar. El lugar perfecto para crear recuerdos dulces.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Historia y equipo -->
+    <section class="story">
+        <div class="container">
+            <div class="story__content">
+                <div class="story__text">
+                    <span class="section-tag">Nuestra historia</span>
+                    <h2 class="story__title">De barrio para el barrio</h2>
+                    <p class="story__paragraph">La Tanita nació del sueño de crear un espacio donde la tradición panadera argentina encontrara su lugar en un mundo que corre demasiado rápido. Somos una pastelería-cafetería que combina lo mejor de la tradición con una estética contemporánea y cálida.</p>
+                    <p class="story__paragraph">Cada mañana horneamos con las mismas recetas de siempre, pero con ese toque renovado que nos hace únicos. No somos una franquicia, somos un emprendimiento de barrio que creció con el cariño de nuestros vecinos de Ramos Mejía.</p>
+                    
+                    <div class="story__team">
+                        <div class="team-member">
+                            <div class="team-member__avatar">C</div>
+                            <div class="team-member__info">
+                                <span class="team-member__name">Carolina</span>
+                                <span class="team-member__role">Fundadora y Pastelera</span>
+                            </div>
+                        </div>
+                        <div class="team-member">
+                            <div class="team-member__avatar">K</div>
+                            <div class="team-member__info">
+                                <span class="team-member__name">Karina</span>
+                                <span class="team-member__role">Encargada de Atención</span>
+                            </div>
+                        </div>
+                        <div class="team-member">
+                            <div class="team-member__avatar">M</div>
+                            <div class="team-member__info">
+                                <span class="team-member__name">Martín</span>
+                                <span class="team-member__role">Barista Principal</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="story__images">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnGbnnLq8VAvkywnYMAHiENwcyEmdlF1rRcs4mqTa8iDBjo6LMU35mxE7D9Ug-ds2K9Ph7iwWVXX3nNYbGaCsbBqft8rO5v0OxKmhiHaCpKhqe2tqspTvEHFxj_7So6O4bUxbeP44RYt7Lx=s1360-w1360-h1020" alt="Interior de La Tanita" class="story__image story__image--main" loading="lazy">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl0isa7f4ElTSwICmUZkwAWYa6NdrEz5AeBHEdtMYRGxKllHw_dGrNm6FzItxr22OFXLCGoIAB_-5EgBEJNCmPg2APXyvSuEHPf4Giw1O2aMgDJB1hXs0g8wyoZw7sCS5GGXtyhK9xBni_O=s1360-w1360-h1020" alt="Café preparado" class="story__image story__image--secondary" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario de contacto -->
+    <section class="contact" id="contacto">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Contacto</span>
+                <h2 class="section-title">Reservá tu lugar</h2>
+                <p class="section-subtitle">¿Querés venir a merendar o tenés una consulta? Escribinos y te respondemos al toque.</p>
+            </div>
+            
+            <div class="contact__content">
+                <div class="contact__form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="contact-form__group">
+                            <label class="contact-form__label" for="name">Nombre</label>
+                            <input type="text" id="name" class="contact-form__input" placeholder="Tu nombre" required>
+                        </div>
+                        
+                        <div class="contact-form__group">
+                            <label class="contact-form__label" for="phone">Teléfono</label>
+                            <input type="tel" id="phone" class="contact-form__input" placeholder="Tu número de WhatsApp" required>
+                        </div>
+                        
+                        <div class="contact-form__group">
+                            <label class="contact-form__label" for="date">Fecha deseada</label>
+                            <input type="date" id="date" class="contact-form__input" required>
+                        </div>
+                        
+                        <div class="contact-form__group">
+                            <label class="contact-form__label" for="guests">Cantidad de personas</label>
+                            <select id="guests" class="contact-form__select" required>
+                                <option value="">Seleccionar...</option>
+                                <option value="1-2">1-2 personas</option>
+                                <option value="3-4">3-4 personas</option>
+                                <option value="5-6">5-6 personas</option>
+                                <option value="7+">7 o más personas</option>
+                            </select>
+                        </div>
+                        
+                        <div class="contact-form__group">
+                            <label class="contact-form__label" for="service">Servicio deseado</label>
+                            <select id="service" class="contact-form__select" required>
+                                <option value="">Seleccionar...</option>
+                                <option value="merienda-libre">Merienda Libre</option>
+                                <option value="desayuno">Desayuno</option>
+                                <option value="almuerzo">Almuerzo</option>
+                                <option value="tabla-dulce-salada">Tabla Dulce-Salada</option>
+                                <option value="otro">Otro / Consulta</option>
+                            </select>
+                        </div>
+                        
+                        <div class="contact-form__group">
+                            <label class="contact-form__label" for="message">Mensaje (opcional)</label>
+                            <textarea id="message" class="contact-form__textarea" placeholder="¿Algo que debamos saber? Alergias, celebraciones, etc." rows="3"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="contact-form__button">
+                            <svg class="contact-form__button-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                            </svg>
+                            Enviar por WhatsApp
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="contact__info">
+                    <div class="contact__info-card">
+                        <h3 class="contact__info-title">Información del local</h3>
+                        
+                        <div class="contact__info-item">
+                            <svg class="contact__info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            <div class="contact__info-text">
+                                <span class="contact__info-label">Dirección</span>
+                                <span class="contact__info-value">Espora 310, Ramos Mejía, Buenos Aires</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact__info-item">
+                            <svg class="contact__info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                            </svg>
+                            <div class="contact__info-text">
+                                <span class="contact__info-label">WhatsApp</span>
+                                <a href="tel:5491126756944" class="contact__info-value contact__info-link">+54 9 11 2675-6944</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact__info-item">
+                            <svg class="contact__info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12 6 12 12 16 14"/>
+                            </svg>
+                            <div class="contact__info-text">
+                                <span class="contact__info-label">Horarios</span>
+                                <span class="contact__info-value">Martes a Domingo: 8:00 – 21:30</span>
+                                <span class="contact__info-value contact__info-note">Lunes: Cerrado</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact__social">
+                            <span class="contact__social-label">Seguinos en:</span>
+                            <div class="contact__social-links">
+                                <a href="https://www.instagram.com/latanita.panaderia/?hl=es-la" class="contact__social-link" target="_blank" aria-label="Instagram">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+                                    </svg>
+                                </a>
+                                <a href="https://www.facebook.com/p/La-Tanita-Caf%C3%A9-Panader%C3%ADa-100070330385700/" class="contact__social-link" target="_blank" aria-label="Facebook">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__map">
+            <iframe
+                src="https://maps.google.com/maps?q=Espora+310+Ramos+Mejia+Buenos+Aires&output=embed"
+                width="100%"
+                height="350"
+                style="border:0;"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                allowfullscreen>
+            </iframe>
+        </div>
+        
+        <div class="footer__content">
+            <div class="container">
+                <div class="footer__grid">
+                    <div class="footer__brand">
+                        <img src="https://scontent-scl3-1.xx.fbcdn.net/v/t39.30808-6/303359704_214289647592047_2322346389539879978_n.png?stp=dst-png&cstp=mx264x264&ctp=s264x264&_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=F10o5otTkf8Q7kNvwEtrCcn&_nc_oc=AdpUPcya1GmcMAlf0hFypcrs-3XCcXldpKkW_zxkTciLLGDKW9vL6q6ZI_mI2ezNd9iP3zdoGaq2Pgp6CQ3C0_q5&_nc_zt=23&_nc_ht=scontent-scl3-1.xx&_nc_gid=YUJ_Mq3YFGJIdZxB6xjZfw&_nc_ss=7b289&oh=00_AQAza4ut6-3aztgADB3uMMU4GYR1GfUlQmxGSuj1Hp1wnw&oe=6A681EB3" alt="La Tanita" class="footer__logo">
+                        <p class="footer__tagline">Pastelería y Cafetería artesanal en el corazón de Ramos Mejía. Donde cada visita se sienta como en casa.</p>
+                    </div>
+                    
+                    <div class="footer__links">
+                        <h4 class="footer__links-title">Navegación</h4>
+                        <a href="#inicio" class="footer__link">Inicio</a>
+                        <a href="#nosotros" class="footer__link">Nosotros</a>
+                        <a href="#experiencia" class="footer__link">Experiencia</a>
+                        <a href="#galeria" class="footer__link">Galería</a>
+                        <a href="#contacto" class="footer__link">Contacto</a>
+                    </div>
+                    
+                    <div class="footer__contact">
+                        <h4 class="footer__links-title">Contacto</h4>
+                        <p class="footer__contact-item">Espora 310, Ramos Mejía</p>
+                        <a href="tel:5491126756944" class="footer__contact-item footer__link">+54 9 11 2675-6944</a>
+                        <p class="footer__contact-item">Martes a Domingo: 8:00 – 21:30</p>
+                        <p class="footer__contact-item footer__contact-note">Lunes: Cerrado</p>
+                    </div>
+                    
+                    <div class="footer__social">
+                        <h4 class="footer__links-title">Seguinos</h4>
+                        <div class="footer__social-links">
+                            <a href="https://www.instagram.com/latanita.panaderia/?hl=es-la" class="footer__social-link" target="_blank" aria-label="Instagram">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+                                </svg>
+                            </a>
+                            <a href="https://www.facebook.com/p/La-Tanita-Caf%C3%A9-Panader%C3%ADa-100070330385700/" class="footer__social-link" target="_blank" aria-label="Facebook">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer__bottom">
+                    <p class="footer__copyright">© 2026 La Tanita • Pastelería y Cafetería. Todos los derechos reservados.</p>
+                    <a href="https://tuweben3dias.com" class="footer__credit" target="_blank">Diseñado por tuweben3dias.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/5491126756944?text=Hola%20La%20Tanita!%20Vi%20su%20página%20y%20me%20gustaría%20hacer%20una%20consulta." class="whatsapp-float" target="_blank" aria-label="Contactar por WhatsApp" id="whatsappFloat">
+        <svg class="whatsapp-float__icon" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+        <span class="whatsapp-float__text">¿Reservamos?</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
